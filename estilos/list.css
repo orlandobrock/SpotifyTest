@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Roboto&display=swap');
+html{
+    background-image: url("https://i.imgur.com/gr4VW4U.png");
+}
+body{
+    margin: 0px;
+}
+h1, h2{
+    margin: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+#current_time{
+    font-family: 'Darker Grotesque', sans-serif; 
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 15px;
+    width: 0vh;
+    margin-left: 10px;
+}
+#fullDuration{
+    font-family: 'Darker Grotesque', sans-serif; 
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 15px;
+    width: 0vh;
+    margin-left: -25px;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.now-playing-bar > .now-playing-bar__center{
+    display: flex;
+    align-items: center;
+}
+
+.playing{
+    height: 88vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.now-playing-bar-container{
+    background-image: linear-gradient(to bottom, rgb(0, 153, 51, 0.5), rgb(0, 179, 60));
+    display: flex;
+}
+.now-playing-bar__left{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: 35%;
+}
+#musica{
+    margin-top: 10px;
+}
+.now-playing-bar__left > img{
+    height: 10vh;
+    padding: 10px;
+}
+div{
+    padding: 0px;
+    margin: 0px;
+}
+.now-playing-bar__center{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.now-playing-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#buttonPlay{
+    height: 5vh;
+    width: 5vh;
+    margin-left:20px; 
+}
+.player{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+#buttonPlay:hover{
+    height: 5.3vh;
+    width: 5.3vh;
+    margin-bottom: -3px;
+}
+
+video{
+    height: 50vh;
+    display: block;
+    margin: auto;
+}
+.progress_bar{
+    background-color: black;
+    height: 5px;
+    width: 50vh;
+}
+
+#buttonRepeat{
+    height:2.5vh;
+    width: 2.5vh;
+}
+#buttonShuffle{
+    height:2.5vh;
+    width: 2.5vh;
+    margin-left: 20px;
+}
+#buttonRepeat:hover{
+    height:3vh;
+    width: 3vh;
+    margin: -2px;
+}
+#buttonShuffle:hover{
+    height:3vh;
+    width: 3vh;
+    margin-right: -4px;
+}
+.progress_bar-timer{
+    display: flex;
+    flex-direction: row;
+}

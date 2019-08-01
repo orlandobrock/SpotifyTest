@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/estilos/list.css">
+
+    <title>Listening</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="playing">
+            <video id="videoe">
+                <source src="/cliptest.mp4" type="video/mp4">
+            </video>
+        </div>
+        <footer class="now-playing-bar-container">
+            <div class="now-playing-bar">
+                <div class="now-playing-bar__left">
+                    <img src="/image/algumtest.jpg">
+                    <span id="musica">
+                        <h1>Kyouran Hey Kids!!</h1>
+                        <h2>THE ORAL CIGARETTES</h2>
+                    </span>
+                </div>
+                <div class="now-playing-bar__center">
+                    <div class="player">
+                            <img src="/image/Player/repeat.png" id="buttonRepeat">
+                            <img src="/image/Player/play.png" id="buttonPlay">
+                            <img src="/image/Player/suffle.png" id="buttonShuffle">
+                    </div>
+                    <div class="progress_bar-timer">
+                         <span id="current_time">0:00</span> 
+                         <div class="progress_bar"></div>
+                         <span id="fullDuration">0:00</span>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script type="text/javascript" src="/script/script.js"></script>
+</body>
+
+
+</html>
