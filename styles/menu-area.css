@@ -1,0 +1,135 @@
+.menu {
+  grid-area: MN;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.menu .logo svg {
+  color: #fff;
+  width: 8.75rem;
+}
+
+.menu .logo {
+  padding: 20px;
+}
+
+.nav___rotes {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  color: #b3b3b3;
+}
+
+.material-icons.md-24 {
+  font-size: 30px;
+}
+
+.nav___rotes .rotes {
+  display: flex;
+  align-content: center;
+  padding: 6px 20px;
+  width: 95%;
+}
+
+.nav___rotes .rotes .center {
+  align-self: center;
+}
+
+.nav___rotes .rotes.active {
+  background: #282828;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.nav___rotes .rotes p {
+  margin-left: 14px;
+  color: #b3b3b3;
+  align-self: center;
+}
+
+.menu .playlist {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 0 26px;
+}
+
+.menu .playlist > p {
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+
+.menu .playlist .playlist-make {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.menu .playlist .playlist-make i {
+  background: #b3b3b3;
+  color: #000;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.menu .playlist .like i {
+  background: linear-gradient(135deg, #450af5, #c4efd9);
+  color: #b3b3b3;
+}
+
+.menu .playlist .playlist-make span {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.menu hr {
+  background: #282828;
+  border: none;
+  height: 1px;
+}
+
+.menu .playlist-area {
+  padding: 0 26px;
+  margin-top: 18px;
+  flex: 1;
+  line-height: 24px;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+
+.menu .playlist-area .playlist-name {
+  cursor: pointer;
+}
+
+.menu .playlist-area .playlist-name > p {
+  color: #b3b3b3;
+}
+
+.menu .playlist-area .playlist-name > p:hover {
+  color: white;
+}
+
+.menu .playlist-area .playlist-name:not(:last-child) {
+  margin-bottom: 10px;
+}
+.menu .install {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.menu .install span {
+  margin-left: 10px;
+  font-size: 14px;
+}

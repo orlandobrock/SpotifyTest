@@ -1,0 +1,107 @@
+.player {
+  grid-area: PL;
+  background: #282828;
+  padding: 15px;
+  display: flex;
+}
+
+.player img {
+  height: 60px;
+}
+
+.player .music-info {
+  display: flex;
+  align-self: flex-start;
+}
+
+.player .music-info .music-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.player .music-info .music-name .name {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.player .music-info .music-name .name:hover {
+  text-decoration: underline;
+}
+
+.player .music-info .music-name .artist {
+  font-size: 12px;
+  line-height: 14px;
+  color: #b3b3b3;
+}
+.player .music-info .music-name .artist:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.md-12 {
+  font-size: 17px;
+}
+
+.md-20 {
+  font-size: 35px;
+}
+
+.player .status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  color: #b3b3b3;
+}
+
+.player .status i {
+  color: #b3b3b3;
+}
+
+.player .status .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player .status .controls i:not(:last-child) {
+  margin-right: 35px;
+}
+
+.player .status .time .bar {
+  width: 30rem;
+  height: 2px;
+  background: #b3b3b3;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.player .controls2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b3b3b3;
+}
+
+.player .controls2 i {
+  color: #b3b3b3;
+}
+
+.player .controls2 i:not(:last-child) {
+  margin-right: 10px;
+}
+
+.player .controls2 .volume-bar {
+  width: 100px;
+  height: 3px;
+  background: #b3b3b3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}

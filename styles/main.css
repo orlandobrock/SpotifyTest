@@ -1,0 +1,23 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular Std Book", sans-serif;
+  color: #fff;
+}
+
+/* 
+  MN - MENU
+  SG - SONG LIST
+  PL - PLAYER
+*/
+
+#container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-template-rows: calc(100vh - 5.6rem);
+  grid-template-areas: "MN SG" "PL PL";
+  overflow: hidden;
+}
